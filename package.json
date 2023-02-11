@@ -1,0 +1,19 @@
+{
+  "name": "fastify-generate-proto3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.19",
+    "fastify": "^4.12.0",
+    "fastify-plugin": "^4.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
