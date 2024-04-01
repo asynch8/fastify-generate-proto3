@@ -65,7 +65,7 @@ function message(messageName: string, schema, indent = 0) {
 }
 
 function messageOneOf(messageName: string, schemas = [], indent = 0) {
-    return `message ${messageName}OneOf {
+    return `message ${messageName} {
   oneof types {
     ${schemas.map((schema, index) => {
         return generateProperty(schema.type, schema, index, false, indent + 1)
